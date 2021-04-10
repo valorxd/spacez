@@ -1,0 +1,426 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222 ;
+    font-family: Verdana, sans-serif;
+}
+.site-header .container
+{
+    padding-top: 50px;
+    padding-bottom: 180px;
+    color: #ffffff;
+    background-color: #222222;
+    background-position: 525px 120px;
+    background-image: url(../img/moon-rocket.png);
+    background-repeat: no-repeat;
+    
+}
+
+.rightmenu{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.rightmenu a{
+    margin-right: 20px;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-nav{
+    margin-bottom: 95px;
+    display: flex
+}
+.logo{
+    display: flex;
+    padding: 0px; 
+    margin-right: 30px;
+}
+.navmenu {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    padding-left: 40px;
+    list-style: none;
+}
+.navmenu a {
+    display: block;
+    margin-right: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+.bigtext{
+    padding:auto;
+    width: 300px;
+    padding-left: 20px;
+}
+.bigtext h1{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier New", monospace;
+    
+}
+.bigtext p{
+    margin: 0px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+.btn{
+    display: inline-block;
+    width: 195px;
+    padding: 0 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #222222;
+    border: none;
+    border-radius: 50px;
+    background-color: gold;
+}
+.btn2{
+    display: inline-block;
+    width: 195px;
+    padding: 0 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #222222;
+    border: none;
+    border-radius: 50px;
+    background-color: gold;
+}
+.btn2:hover{
+    background-color: gray;
+}
+.btn-grey{
+background-color:black;
+color:white;
+height:50px;
+}
+.act:hover{
+    color:white;
+}
+.act2:hover{
+    background-color: grey;
+}
+.act:active{
+    color:darkgrey;
+}
+.act2:active{
+    color:darkgrey;
+}
+
+.btntext{
+
+    margin-top: -0px;
+    margin-right: 50px;
+    margin-bottom: -33px;
+    height: 50px;
+}
+.arrow{
+    margin-left: 50px;
+    margin-bottom: -3px;
+
+}
+.arroww{
+margin-right: -100px;
+margin-bottom:47px;
+}
+.features{
+    background-color: #0E0D0B;
+    display: flex;
+    padding: 90px 0 ;
+    
+}
+.comfortrussia
+{
+    background-image: url(../img/advantage-icon-1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.food{
+    background-image: url(../img/advantage-icon-2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.pilots{
+    background-image: url(../img/advantage-icon-3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.rover{
+    background-image: url(../img/advantage-icon-4.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.features-list
+{ 
+    display: flex;
+    color:aliceblue;
+    list-style: none;
+    margin-right: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.footer-columns-container .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-right: 100px;
+}
+.footer-columns-container .right-column {
+    width: 720px;
+    padding-top: 35px;
+}
+.features-list li{
+    margin-right: 80px;
+    font-size: 14px;
+    padding-top: 80px;
+}
+
+.maptext{
+    font-family: "Courier New", monospace;
+    font-size: 25px;
+    margin-top:-10px;
+}
+   
+.columns-container {
+    display: flex;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn:active{
+background-color:goldenrod;
+}
+.moon {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+.columns-container .left-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.BFMAP{
+   margin-top: -20px;
+}
+.formtext{
+    line-height: 0%;
+}
+.formtext2{
+    margin-bottom: 60px;
+}
+.columns-container .right-column {
+    width: 440px;
+    margin-top: -20px;
+}
+
+.visually-hidden
+{
+
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.site-footer
+{
+    background-color: #0E0D0B;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: gray;
+    
+}
+.footer-columns-container {
+    display: flex;
+    
+}
+.footer-menu{
+    display: flex;
+    margin-left: 50px;
+} 
+.footer-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-menu li{
+    width: 180px;
+    margin-right: 55px;
+}
+.footer-submenu a{
+    list-style: none;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:#686868;
+  
+}
+.footer-submenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+
+}
+
+.recommendations{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+.recommendations-list li
+{
+    list-style: none;
+    padding-bottom: 30px
+}
+.recommendations-list li:before {
+    color: #FFD700; 
+    content: "•"; 
+    margin-right: 10px; 
+    font-size: 21px;
+   }
+.copyrights{
+    margin-top: 150px;
+}
+.logo-container{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    width: 160px
+}
+.foot{
+    padding-bottom: 20px;
+    margin-top: 70px;
+    text-decoration: none;
+    list-style: none;
+    color: #d4d4d4;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px solid #555555;
+}
+.vacation-request{
+    background-color:#f0f0f0;
+    height:480px;
+}
+.columns-container{
+padding-top: 100px;
+}
+
+.fio{
+    width:440px;
+    height: 50px;
+}
+.rost{
+    height: 50px;
+    width:215px;
+}
+.ves{
+    height: 50px;
+    width:215px;
+    margin-left: 225px;
+    
+}
+.ves2{
+    margin-top: -72px;
+}
+.raspisanie{
+    height: 470px;
+}
+.rasppol{
+    color:#feca30;
+    line-height: 30px;
+    margin-top: 100px;
+    font-size: 25px;
+    width:250px;
+    
+}
+.rasppol2{
+    margin-left: 430px;
+    margin-top: -70px;
+    line-height: 5px;
+    color:white;
+}
+.idpolet{
+   
+    color:#feca30;
+}
+.reis{
+    margin-top: 90px;
+    color:white;
+}
+.time-polets{
+   width: 100%;
+    border-collapse: collapse;
+}
+.time{
+    padding: 80px 0;
+    color:white;
+    background-color: #222222;
+}
+table{
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color:grey;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.time-polets tr {
+    color: white;
+    border-bottom: 1px solid #555555;
+    background-color: #222222;
+}
+.time-polets th {
+    width: 180px;
+    padding: 15px;
+    color: white;
+    text-align: left;
+    background-color: #111111;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.time-polets td {
+    width: 180px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.title{
+    display: block;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #555555;
+}
+
